@@ -22,17 +22,28 @@ Here an example tree layout:
 For detailed [documentation](http://treelayout.sourceforge.net) and [downloads](https://sourceforge.net/projects/treelayout/files/) see the TreeLayout web site [http://treelayout.sourceforge.net](http://treelayout.sourceforge.net).
 
 ## Manual Build Step
-Contract.java		
-IteratorUtil.java   -> IterableUtil.java
-StringUtil.java
-ListUtil.java
+Contract.java		 
+IteratorUtil.java   -> IterableUtil.java  
+StringUtil.java  
+ListUtil.java  
 
-TreeLayout.java
-TreeForTreeLayout.java
-Configuration.java
-NodeExtentProvider.java
+TreeLayout.java  
+TreeForTreeLayout.java  
+Configuration.java  
+NodeExtentProvider.java  
 
-FixedNodeExtentProvider.java
-DefaultTreeForTreeLayout.java  -> -Xlint:unchecked 
-DefaultConfiguration.java
+FixedNodeExtentProvider.java  
+DefaultTreeForTreeLayout.java  -> -Xlint:unchecked   
+DefaultConfiguration.java  
 AbstractTreeForTreeLayout.java
+
+---
+
+Vocabulary.java -> VocabularyImpl.java  
+EqualityComparator.java -> AbstractEqualityComparator.java  
+
+ObjectEqualityComparator.java  
+MurmurHash.java  
+EqualityComparator.java  
+
+Pair.java -> MultiMap.java  
