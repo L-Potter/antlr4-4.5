@@ -47,3 +47,9 @@ MurmurHash.java
 EqualityComparator.java  
 
 Pair.java -> MultiMap.java  
+
+
+
+
+javac -cp ./antlr4-4.5.jar -d . *.java
+javac  -d . *.java 
